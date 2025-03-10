@@ -1,0 +1,100 @@
+
+
+.inscription {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+    justify-content: center;
+    height: 800px;
+    background-color: white;
+    font-family: "Poppins", serif;
+  font-weight: 600;
+  font-style: italic;
+}
+.connexion{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+    justify-content: center;
+    height: 800px;
+    background-color: white;
+    font-family: "Poppins", serif;
+  font-weight: 600;
+  font-style: italic;
+}
+.un{
+    display: none;
+}
+.deux{
+    display: none;
+}
+.img{
+    width: 250px;
+}
+.pub {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+    height: 800px;
+    background-color: blue;
+    justify-content: center;
+    background: linear-gradient(135deg, rgba(75,0,130,1) 0%, rgba(138,43,226,1) 50%, rgba(255,255,255,1) 100%);
+    color: white;
+    align-items: center; 
+    text-align: center; 
+}
+.corps_page{
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    align-items: center;
+    margin-left: 15%;
+    margin-top: 10%;
+    margin-bottom: 10%;
+}
+.corps_page1{
+    display: flex;
+    flex-direction: row-reverse;
+    text-align: center;
+    align-items: center;
+    margin-right: 15%;
+    margin-top: 10%;
+    margin-bottom: 10%;
+}
+body{
+    background-image: 
+    linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),  
+    url(back.jpeg) ;
+}
+.choi1, .choi2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.choi1 {
+    position: relative;
+    left: 155px;
+}
+.choi2{
+    position: relative;
+    left: 185px;
+}
+.choix{
+    display: flex;
+    flex-direction: row;
+}
+.img {
+    display: block;
+}
+.fini{
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    left: 15%;
+}
+
